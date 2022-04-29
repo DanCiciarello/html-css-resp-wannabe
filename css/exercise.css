@@ -1,13 +1,20 @@
-
-
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .container {
-        /* min-width: 481px; */
         max-width: 760px;
         width: 100%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    
+    .container {
+        max-width: 480px;
+        width: 100%;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .col {
+        flex-basis: 100%;
+        margin-bottom: 4rem;
+    }
 }
